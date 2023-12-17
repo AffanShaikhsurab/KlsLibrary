@@ -1,0 +1,47 @@
+[debug] [2023-12-17T09:12:08.728Z] ----------------------------------------------------------------------
+[debug] [2023-12-17T09:12:08.731Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\affan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-17T09:12:08.732Z] CLI Version:   13.0.2
+[debug] [2023-12-17T09:12:08.732Z] Platform:      win32
+[debug] [2023-12-17T09:12:08.732Z] Node Version:  v21.4.0
+[debug] [2023-12-17T09:12:08.732Z] Time:          Sun Dec 17 2023 14:42:08 GMT+0530 (India Standard Time)
+[debug] [2023-12-17T09:12:08.732Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-17T09:12:08.846Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-17T09:12:08.846Z] > authorizing via signed-in user (affanshaikhsurabofficial@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\affan\Needfit Agency\git_library_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-17T09:12:42.868Z] Using project from CLI flag: library-61117
+[debug] [2023-12-17T09:12:42.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/library-61117 [none]
+[debug] [2023-12-17T09:12:43.630Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/library-61117 200
+[debug] [2023-12-17T09:12:43.630Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/library-61117 {"projectId":"library-61117","projectNumber":"667602917228","displayName":"Library","name":"projects/library-61117","resources":{"hostingSite":"library-61117"},"state":"ACTIVE","etag":"1_de1432a0-e2e4-489e-878c-a5aa38c4c233"}
+[info] i  Using project library-61117 (Library) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-17T09:12:43.639Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/library-61117 [none]
+[debug] [2023-12-17T09:12:44.124Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/library-61117 200
+[debug] [2023-12-17T09:12:44.124Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/library-61117 {"projectId":"library-61117","projectNumber":"667602917228","displayName":"Library","name":"projects/library-61117","resources":{"hostingSite":"library-61117"},"state":"ACTIVE","etag":"1_de1432a0-e2e4-489e-878c-a5aa38c4c233"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
